@@ -1,0 +1,16 @@
+// Basic routing structure
+
+app.method(path,handler);
+        
+example:
+app.get('/',(req,res)=>{
+    res.send('Hello World');
+});
+
+// Serving static files
+
+express.static(root,[options]);
+
+example:
+app.use(express.static('public'));
+
