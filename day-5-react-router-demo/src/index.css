@@ -25,3 +25,8 @@ nav a.active{
   font-weight: bold;
   text-decoration: none;
 }
+
+.users a{
+  display: block;
+  margin-bottom: 8px;
+}
